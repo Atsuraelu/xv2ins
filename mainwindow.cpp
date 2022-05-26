@@ -102,7 +102,7 @@ bool MainWindow::Initialize()
         box.setIcon(QMessageBox::Critical);
         box.setTextFormat(Qt::RichText);
         box.setText("This program needs xv2patcher to be installed.<br><br>"
-                    "Download from <a href='http://animegamemods.freeforums.net/thread/701/tools-eternity'>http://animegamemods.freeforums.net/thread/701/tools-eternity</a>");
+                    "Download from <a href='https://videogamemods.com/xenoverse/mods/eternity-tools/'>https://videogamemods.com/xenoverse/mods/eternity-tools/</a>");
         box.exec();
         return false;
     }
@@ -117,7 +117,7 @@ bool MainWindow::Initialize()
         box.setIcon(QMessageBox::Critical);
         box.setTextFormat(Qt::RichText);
         box.setText(QString("This program needs xv2patcher %1 or greater (your current version is %2). Update xv2patcher.<br><br>"
-                    "Download lastest xv2patcher fron <a href='http://animegamemods.net/thread/4059/tools-eternity'>http://animegamemods.net/thread/4059/tools-eternity</a>").arg(MINIMUM_PATCHER_REQUIRED).arg(patcher_version));
+                    "Download lastest xv2patcher fron <a href='https://videogamemods.com/xenoverse/mods/eternity-tools/'>https://videogamemods.com/xenoverse/mods/eternity-tools/</a>").arg(MINIMUM_PATCHER_REQUIRED).arg(patcher_version));
         box.exec();
         return false;
     }
